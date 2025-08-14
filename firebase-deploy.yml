@@ -33,5 +33,5 @@ jobs:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
           channelId: live
-          projectId: "tailor-management-system-1d795"
+          projectId: "tailor-management-system-app"
 
