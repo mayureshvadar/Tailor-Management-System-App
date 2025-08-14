@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F9F9F9">
+
+    <!-- 🧵 Order ID Input -->
+    <EditText
+        android:id="@+id/edit_order_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="🧵 Enter Order ID to Share"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 📤 Share Invoice Button -->
+    <Button
+        android:id="@+id/btn_share_invoice"
+        style="@style/ShopButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📤 Share Invoice"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:elevation="2dp"
+        android:drawableStart="@drawable/ic_share"/>
+    <!--  android:iconPadding="8dp" -->
+  <!-- android:iconPadding="8dp" -->
+</LinearLayout>

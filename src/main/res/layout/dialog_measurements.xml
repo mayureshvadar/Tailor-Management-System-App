@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Measurement Fields -->
+        <EditText android:id="@+id/inputChest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chest (cm)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText android:id="@+id/inputWaist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Waist (cm)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText android:id="@+id/inputHip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hip (cm)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText android:id="@+id/inputShoulder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shoulder (cm)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText android:id="@+id/inputSleeve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sleeve (cm)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText android:id="@+id/inputInseam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Inseam (cm)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveMeasurementsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Measurements"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>

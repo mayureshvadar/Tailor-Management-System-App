@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp"
+    android:clipToPadding="false">
+
+    <!-- 👤 Customer Name -->
+    <TextView
+        android:id="@+id/text_customer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👤 Customer Name:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="4dp" />
+
+    <!-- 🧵 Order ID -->
+    <TextView
+        android:id="@+id/text_order_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🧵 Order ID:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:layout_marginBottom="2dp" />
+
+    <!-- 📅 Date -->
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📅 Date:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#777777"
+        android:layout_marginBottom="8dp" />
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📦 Qty: 0"
+        android:textSize="14sp"
+        android:textColor="#444" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💰 ₹0.00"
+        android:textSize="14sp"
+        android:textColor="#444" />
+
+    <!-- 🔘 Action Buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- 📤 Share Button -->
+        <ImageButton
+            android:id="@+id/btn_share"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_share"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Share Invoice"
+            android:padding="8dp"
+            android:tooltipText="Share Invoice" />
+
+        <!-- 🗑️ Delete Button -->
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Delete Invoice"
+            android:padding="8dp"
+            android:layout_marginStart="16dp"
+            android:tooltipText="Delete Invoice" />
+        <!-- 📐 Measurement Button -->
+        <ImageButton
+            android:id="@+id/btn_measurement"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_info_details"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="View Measurements"
+            android:padding="8dp"
+            android:layout_marginStart="16dp"
+            android:tooltipText="View Measurements" />
+    </LinearLayout>
+</LinearLayout>

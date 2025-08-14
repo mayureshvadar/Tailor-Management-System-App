@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Cache directory: used for temporary PDF files -->
+    <cache-path
+        name="invoice_cache"
+        path="." />
+    <!-- External storage: used for saved/shared PDFs -->
+    <cache-path
+        name="shared_pdf"
+        path="." />
+    <!-- External storage: used for saved/shared PDFs -->
+    <external-path
+        name="external_files"
+        path="TailorManagementSystem/" />
+
+    <!-- Allow access to Downloads folder for saved invoices -->
+    <external-path
+        name="downloads"
+        path="Download/" />
+    <!-- generate summary PDF -->
+    <external-path
+        name="external_files"
+        path="." />
+
+
+</paths>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvInvoiceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invoice Generated 🎉"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnViewInvoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📄 View Invoice" />
+
+    <Button
+        android:id="@+id/btnShareInvoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📤 Share Invoice"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnOpenFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📁 Open Folder"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

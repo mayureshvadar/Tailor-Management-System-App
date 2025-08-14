@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F9F9F9">
+
+    <!-- 🏪 Screen Title -->
+    <TextView
+        style="@style/ShopTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download Invoice Screen 📥"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 🧵 Order ID Input -->
+    <EditText
+        android:id="@+id/edit_order_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Order ID"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 📥 Download Button -->
+    <Button
+        android:id="@+id/btn_download_invoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📥 Download Invoice"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:elevation="2dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 📤 Share Button -->
+    <Button
+        android:id="@+id/btn_share_invoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📤 Share Invoice"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:elevation="2dp" />
+</LinearLayout>

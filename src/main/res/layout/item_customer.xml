@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#F5F5F5"
+    android:layout_margin="8dp"
+    android:elevation="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/ShopTextStyle"
+        android:id="@+id/tvName"
+        android:text="👤 Name-"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/ShopTextStyle"
+        android:id="@+id/tvMobile"
+        android:text="📞 Mobile-"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/ShopTextStyle"
+        android:id="@+id/tvAddress"
+        android:text="🏠 Address-"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/ShopTextStyle"
+        android:id="@+id/tvGarment"
+        android:text="🧥 Garment:"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        style="@style/ShopTextStyle"
+        android:id="@+id/tvMeasurements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📐 Measurements: "
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnMeasurements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Measurements"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
